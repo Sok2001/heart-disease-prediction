@@ -1,0 +1,9 @@
+venv/
+.idea/
+__pycache__/
+*.h5
+*.mp4
+*.gif
+*.jpg
+.DS_Store
+ui_system_BACKUP2.py
