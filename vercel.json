@@ -1,0 +1,14 @@
+{
+  "builds": [
+    {
+      "src": "ui_system.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "ui_system.py"
+    }
+  ]
+}
